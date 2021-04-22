@@ -8,8 +8,9 @@ Given("que estou no site da Automation", () => {
     Pagina.abrirURL();
 })
 
-When("preencho o campo full name", () => {
-    Pagina.preencherCampoPrimeiroNome();
+When("preencho o formulario", () => {
+    Pagina.preencherFormulario();
+
 })
 
 And("clico no botão Refresh", () => {
